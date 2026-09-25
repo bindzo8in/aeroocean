@@ -4,9 +4,6 @@ services:
     container_name: aeroocean
     restart: unless-stopped
 
-    env_file:
-      - .env
-
     networks:
       - web_network
 

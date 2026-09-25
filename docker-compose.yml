@@ -1,0 +1,15 @@
+services:
+  web:
+    image: ghcr.io/bindzo8in/aeroocean:latest
+    container_name: aeroocean
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    networks:
+      - web_network
+
+networks:
+  web_network:
+    external: true

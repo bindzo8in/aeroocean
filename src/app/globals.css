@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Standard visibility for direct page entry */
+#main-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  opacity: 1 !important;
+}
